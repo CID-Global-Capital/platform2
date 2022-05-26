@@ -1,0 +1,8 @@
+<!-- more info at https://support.formkeep.com/creating-a-form-in-hugo-using-shortcodes -->
+{{ $id := default "exampletoken" (.Get 0) }}{{ $button_name := default "Submit" (.Get 1) }}{{ $redirect := .Get 2 }}
+<form accept-charset="UTF-8" action="https://formkeep.com/f/{{ $id }}" method="POST">
+  <input type="hidden" name="utf8" value="✓">
+  {{ if $redirect }}<input type="hidden" name="_redirect_url" value="{{ $redirect }}"> {{ end }}
+  <input type="email"  name="email" placeholder="name@example.com">
+  <button type="submit">{{ $button_name }}</button>
+</form>
