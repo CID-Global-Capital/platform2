@@ -2,9 +2,9 @@
 section:
   name: Accomplishments
   id: accomplishments
-  enable: true
+  enable: false
   weight: 7
-  showOnNavbar: true
+  showOnNavbar: false
   # Can optionally hide the title in sections
   # hideTitle: true
 
@@ -42,5 +42,3 @@ accomplishments:
     url: https://www.udemy.com
   courseOverview: Discover how to create responsive and high performance software. Develop programs with Golang that are highly Concurrent and Parallel. Improve your programming skills in Go with more advanced, mulithreading topics.
   certificateURL: "https://example.com"
- 
-

@@ -2,11 +2,11 @@
 section:
   name: Experiences
   id: experiences
-  enable: true
-  weight: 3
-  showOnNavbar: true
+  enable: false
+  weight: 4
+  showOnNavbar: false
   # Can optionally hide the title in sections
-  # hideTitle: true 
+  # hideTitle: true
 
 # Your experiences
 experiences:
