@@ -1,176 +1,63 @@
 ---
-title: "Markdown Samples"
-date: 2020-06-08T08:06:25+06:00
-description: Markdown rendering samples
+title: "Assessing Value"
+date: 2022-05-08T08:06:25+06:00
+description: Understanding that growth and returns matter.
 menu:
   sidebar:
-    name: Markdown Sample
+    name: Assessing Value
     identifier: markdown
     weight: 30
 author:
-  name: Jessica Jonas
-  image: /images/author/jessica.png
+  name: Mike Mattimoe Jr.
+  image: /images/author/mike.png
 math: true
+tags: ["Enterprise Value","Growth","Returns","NOPAT"]
 ---
+# Surprising Result Due to Small Market Size
 
-This is a sample post intended to test the followings:
+The vast majority of investment firms in East Africa focus on earnings multiples. A more sophisticated and appropriate method is to forecast future performance focused on key value drivers.
 
-- A different post author.
-- Table of contents.
-- Markdown content rendering.
-- Math rendering.
-- Emoji rendering.
+We analyzed two firms with the following observations:
 
----
-# Markdown Syntax Rendering
-
-## Headings
-
-The following HTML `<h1>`—`<h6>` elements represent six levels of section headings. `<h1>` is the highest section level while `<h6>` is the lowest.
-
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
-
-## Paragraph
-
-Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.
-
-Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.
-
-## Blockquotes
-
-The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a `footer` or `cite` element, and optionally with in-line changes such as annotations and abbreviations.
-
-#### Blockquote without attribution
-
-> Tiam, ad mint andaepu dandae nostion secatur sequo quae.
-> **Note** that you can use *Markdown syntax* within a blockquote.
-
-#### Blockquote with attribution
-
-> Don't communicate by sharing memory, share memory by communicating.</p>
-> — <cite>Rob Pike[^1]</cite>
+| Company | <abbr title="Earnings before Interest and Tax">EBIT</abbr> | Growth | Returns |
+| :----------: | :----: | :---: | :---: |
+| Consumer staples | $450,000 | 5%     | 12%     |
+| Industrials      | $550,000 | 20%    | 80%     |
 
 
-[^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
 
-## Tables
+And obtained strange results:
 
-Tables aren't part of the core Markdown spec, but Hugo supports supports them out-of-the-box.
+{{< img src="/posts/markdown-sample/images/ev-nopat.png" align="center" title="EV/NOPAT">}}
 
-   | Name  | Age |
-   | ----- | --- |
-   | Bob   | 27  |
-   | Alice | 23  |
+{{< vs >}}
 
-#### Inline Markdown within tables
 
-| Inline&nbsp;&nbsp;&nbsp; | Markdown&nbsp;&nbsp;&nbsp; | In&nbsp;&nbsp;&nbsp;                | Table  |
-| ------------------------ | -------------------------- | ----------------------------------- | ------ |
-| *italics*                | **bold**                   | ~~strikethrough~~&nbsp;&nbsp;&nbsp; | `code` |
 
-## Code Blocks
 
-#### Code block with backticks
+The industrial company earns 20% more than the consumer stapes business, which should mean that it is valued by 20% more. However, that is only the case if all else is equal. In this case, as in nearly all uses of comparables in markets with few sales, multiples alone are not sufficient to truly assess value. Even using the key value driver formula;
 
-```
-html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Example HTML5 Document</title>
-</head>
-<body>
-  <p>Test</p>
-</body>
-</html>
-```
-#### Code block indented with four spaces
+[insert math equation]
 
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <title>Example HTML5 Document</title>
-    </head>
-    <body>
-      <p>Test</p>
-    </body>
-    </html>
+which is a more robust version of an earnings multiples, the numbers do not seem to add up.
 
-#### Code block with Hugo's internal highlight shortcode
-{{< highlight html >}}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Example HTML5 Document</title>
-</head>
-<body>
-  <p>Test</p>
-</body>
-</html>
-{{< /highlight >}}
+## Conclusion
 
-## List Types
+In this case, the reasons for the anomalous results were identified with a full <abbr title="Discount Cash Flow Analysis">DCF</abbr> analysis and deep dive into each business.
 
-#### Ordered List
+1. Physical assets: the consumer staples business operates a physical plant, with a large plot of land and thus has a floor on the value of it's business, the liquidation value of it's physical assets. The industrial business is growing its fleet but still has 1/6th the physical assets as the consumer staples firm. This leads to a much lower downside scenario.
+2. <abbr title="Operating Profit / Revenue">Operating Margins</abbr>. The consumer stapes firm operates a business with much higher operating margins and thus has a lower level of risk associated with meeting the cash flow requirements of its core business.
 
-1. First item
-2. Second item
-3. Third item
+## Method of analysis
 
-#### Unordered List
+We took the average ROIC for the previous three years as proxy for expected future returns, and used our analysts' consensus estimate of their three-year growth outlook as a proxy for long-term expected growth.
 
-* List item
-* Another item
-* And another item
+### Data
 
-#### Nested list
+The data can be found here:
 
-* Fruit
-  * Apple
-  * Orange
-  * Banana
-* Dairy
-  * Milk
-  * Cheese
+[insert data link]
 
-## Other Elements — abbr, sub, sup, kbd, mark
+## Appendix
 
-<abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
-
-H<sub>2</sub>O
-
-X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
-
-Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.
-
-Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
-
----
-
-## Math Rendering
-
-{{< math.inline >}}
-<p>
-Inline math: \(\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…\)
-</p>
-{{</ math.inline >}}
-
-Block math:
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } } 
-$$
-
----
-
-## Emoji Rendering
-
-<p><span class="nowrap"><span class="emojify">🙈</span> <code>:see_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙉</span> <code>:hear_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙊</span> <code>:speak_no_evil:</code></span></p>
-<br>
+Typically, companies with higher ratios of enterprise value to earnings also have higher growth and/or higher ROIC driven by better sales margins and capital turnover. On the flipside, companies are generally valued at low enterprise value to earnings multiples because of their low returns on capital and low expected growth.

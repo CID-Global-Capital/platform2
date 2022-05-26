@@ -146,9 +146,9 @@ params:
   enableTags: true
 
   # If you want to use different country flag for a language, specify them here.
-  # flagOverwrites:
-  # - languageCode: en
-  #   countryCode: us
+  flagOverwrites:
+    - languageCode: en
+      countryCode: us
 
   # Provide footer configuration.
   footer:
