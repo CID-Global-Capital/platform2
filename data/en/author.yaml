@@ -2,7 +2,7 @@
 name:
 nickname:
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "Invest on the Frontier"
+greeting: "The Frontier Platform is for risk-reduced, curated financing opportunities in emerging markets."
 # give your some contact information. they will be used in the footer
 contactInfo:
   email: "info@cidglobalcapital.com"
@@ -17,3 +17,4 @@ summary:
   - Speed
   - Impact
   - Consistency
+  - Intelligence
