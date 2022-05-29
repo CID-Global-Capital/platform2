@@ -12,8 +12,8 @@ description: Risk-reduced, curated financing opportunities.
 # specify the list of custom menus that you want to show in the top navbar.
 # they will be separated by a divider from the main menus.
 customMenus:
-- name: Main Site
-  url: https://cidglobalcapital.com
+- name: Sign up
+  url: https://docs.google.com/forms/d/e/1FAIpQLSdlgwAS00wvVQZXM9UfQza7tXvVnaDA5jWNi_t3ya6uKfkYGw/formResponse
   # specify whether to hide the menu item from top navbar or not.
   hideFromNavbar: false
   # specify whether to show the menu item in footer or not.

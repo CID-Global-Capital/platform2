@@ -12,12 +12,12 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: Professional
-  filter: "professional"
-- name: Academic
-  filter: "academic"
-- name: Hobby
-  filter: "hobby"
+- name: Logistics
+  filter: "Logistics"
+- name: Branding
+  filter: "Branding"
+- name: Impact
+  filter: "Impact"
 
 # your projects
 projects:
@@ -39,10 +39,10 @@ projects:
   summary: Inventory capital due to SKU imbalance with demand.
   tags: ["Skincare", "Branding", "Logistics", "Startup"]
 
-- name: Toha
-  logo: /images/sections/projects/toha.png
-  role: Owner
-  timeline: "Jun 2019 - Present"
+- name: Propsoya
+  logo: /images/sections/projects/propsoya.png
+  role: Consumer Staple
+  timeline: "Since Jun 2010"
   repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
-  tags: ["hobby","hugo","theme","professional"]
+  summary: Support to help raise matching funds from DFI.
+  tags: ["Impact","Social","Food Processing","Animal Feed"]
