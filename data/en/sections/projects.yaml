@@ -34,7 +34,7 @@ projects:
   logo: /images/sections/projects/uncover-logo.png
   role: Consumer Discretionary
   timeline: "Since June 2020"
-  repo: https://github.com/tensorflow/tensorflow
+  url: https://drive.google.com/drive/folders/17TV0FrmvOntti0fVOBWCiTJ_EhmAwoyd?usp=sharing
   #url: ""
   summary: Inventory capital due to SKU imbalance with demand.
   tags: ["Skincare", "Branding", "Logistics", "Startup"]
@@ -42,7 +42,7 @@ projects:
 - name: Propsoya
   logo: /images/sections/projects/propsoya.png
   role: Consumer Staple
-  timeline: "Since Jun 2010"
-  repo: https://github.com/hossainemruz/toha
+  timeline: "Since Jun 2009"
+  url: https://drive.google.com/drive/folders/1v1Rt2YGwkhd8HozbBv7hAhYdx6rz2Uan?usp=sharing
   summary: Support to help raise matching funds from DFI.
   tags: ["Impact","Social","Food Processing","Animal Feed"]
