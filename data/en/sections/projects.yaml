@@ -25,8 +25,8 @@ projects:
   logo: /images/sections/projects/realnaksource.png
   role: Industrials
   timeline: "Since July 2018"
-  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: https://drive.google.com/drive/folders/1I8Oefe0tIrM9DY24T8JifWzmXrKB50dU?usp=sharing  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: Working capital towards meeting increased demand.
   tags: ["Logistics", "Distribution", "Cross-border", "Marketplace"]
 
@@ -46,3 +46,11 @@ projects:
   url: https://drive.google.com/drive/folders/1v1Rt2YGwkhd8HozbBv7hAhYdx6rz2Uan?usp=sharing
   summary: Support to help raise matching funds from DFI.
   tags: ["Impact","Social","Food Processing","Animal Feed"]
+
+- name: Genteel Fashion
+  logo: /images/sections/projects/genteel_logo.jpg
+  role: Consumer Discretionary
+  timeline: "Since Jan 2019"
+  url: "https://drive.google.com/drive/folders/1cIUsFAEaVQFalPbGR-j9JZ1XAQK4R0cX?usp=sharing"
+  summary: Requesting support for liquidity and stock creation.
+  tags: ["Fashion","Retail","Branding"]

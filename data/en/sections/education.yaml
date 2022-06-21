@@ -15,11 +15,4 @@ degrees:
   icon: fa-solid fa-anchor
   institution:
     name: Growth, Returns, and Value in Kenya Private Sector
-    url: "#"
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  - title: Nullam vitae orci tincidunt purus viverra pulvinar.
-    url: "#"
+    url: "https://www.dropbox.com/s/g48k9z26q8vkivk/2022520_sector_analysis.html?dl=0"
